@@ -37,7 +37,7 @@ data: k1OQhydeajopVgErsP0grDB7zYU9BYPzUmsjVK2K1vYQm9jrfsIsAXU=
 --- 
 kind: secret
 name: npm_password
-data: LVdsAX0iUo+I3/U83E8r4CUloTDdJKWF1bSKquicZgUr2EI8uePadLOlWBWZCTw=
+data: 0w8QcNB93Z8AD8yrES5KKFRqbkhSU7arwuR/c5ezeMvclv5+yNyEGprN67JcD9c=
 
 --- 
 kind: secret
