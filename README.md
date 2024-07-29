@@ -7,7 +7,7 @@ A lightweight library for normalizing state collections and managing relationshi
 
 You can install this module via npm:
 ```bash
-npm install @sleroux/normalize
+npm install @sylvainleroux/normalize
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ Parameters:
 Example
 
 ```javascript
-import { normalize } from '@sleroux/normalize';
+import { normalize } from '@sylvainleroux/normalize';
 
 const initialState = {
   byID: {},
@@ -54,7 +54,7 @@ Parameters
 Example
 
 ```javascript
-import { add_index } from '@sleroux/normalize';
+import { add_index } from '@sylvainleroux/normalize';
 
 const state = {
   byID: { 1: { id: 1, name: 'Task 1' }, 2: { id: 2, name: 'Task 2' } },
@@ -78,7 +78,7 @@ Parameters
 Example
 ```javascript
 
-import { normjoin } from '@sleroux/normalize';
+import { normjoin } from '@sylvainleroux/normalize';
 
 const state = {
   goals: { idsBy: { taskID: {} } },
@@ -104,7 +104,7 @@ console.log(newState);
 
 ```javascript
 
-import { normalize, normjoin } from '@sleroux/normalize';
+import { normalize, normjoin } from '@sylvainleroux/normalize';
 
 function reducer(state, action) {
 
