@@ -2,6 +2,7 @@
   "name": "torga-normalize",
   "description": "Manages collection of objects",
   "main": "src/normalize.js",
+  "types": "src/normalize.d.ts",
   "type": "module",
   "private": false,
   "version": "1.0.3",
