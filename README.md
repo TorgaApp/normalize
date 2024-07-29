@@ -1,5 +1,7 @@
 # Normalize 
 
+[![Build Status](https://drone.torga.fr/api/badges/TorgaApp/normalize/status.svg)](https://drone.torga.fr/TorgaApp/normalize)
+
 A lightweight library for normalizing state collections and managing relationships between objects. This module provides functions to normalize collections, add indexes, and handle complex joins efficiently.
 
 
