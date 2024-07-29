@@ -1,0 +1,19 @@
+{
+  "name": "@torga/normalize",
+  "description": "Manages collection of objects",
+  "main": "src/normalize.js",
+  "version": "1.0.0",
+    "scripts": {
+   "build": "babel src -d dist",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Sylvain Le Roux",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.9",
+    "@babel/preset-env": "^7.25.0",
+    "jest": "^29.7.0"
+  }
+}
