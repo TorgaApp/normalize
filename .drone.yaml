@@ -17,3 +17,29 @@ steps:
   image: node:16
   commands:
     - npm run build
+
+- name: publish 
+  image: plugins/npm
+  settings:
+    username: 
+      from_secret: npm_username
+    password: 
+      from_secret: npm_password
+    email:
+      from_secret: npm_email
+
+
+---
+kind: secret
+name: npm_username
+data: k1OQhydeajopVgErsP0grDB7zYU9BYPzUmsjVK2K1vYQm9jrfsIsAXU=
+
+--- 
+kind: secret
+name: npm_password
+data: LVdsAX0iUo+I3/U83E8r4CUloTDdJKWF1bSKquicZgUr2EI8uePadLOlWBWZCTw=
+
+--- 
+kind: secret
+name: npm_email
+data: aU/9WfMB3vlzna6P/GJLuzgFYRX/PkdM7T8hevG8DDvGaBg3hPzstNSI8dkMf1izxky5PA==
