@@ -7,7 +7,7 @@ A lightweight library for normalizing state collections and managing relationshi
 
 You can install this module via npm:
 ```bash
-npm install @sylvainleroux/normalize
+npm install torga-normalize
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ Parameters:
 Example
 
 ```javascript
-import { normalize } from '@sylvainleroux/normalize';
+import { normalize } from 'torga-normalize';
 
 const initialState = {
   byID: {},
@@ -54,7 +54,7 @@ Parameters
 Example
 
 ```javascript
-import { add_index } from '@sylvainleroux/normalize';
+import { add_index } from 'torga-normalize';
 
 const state = {
   byID: { 1: { id: 1, name: 'Task 1' }, 2: { id: 2, name: 'Task 2' } },
@@ -78,7 +78,7 @@ Parameters
 Example
 ```javascript
 
-import { normjoin } from '@sylvainleroux/normalize';
+import { normjoin } from 'torga-normalize';
 
 const state = {
   goals: { idsBy: { taskID: {} } },
@@ -104,7 +104,7 @@ console.log(newState);
 
 ```javascript
 
-import { normalize, normjoin } from '@sylvainleroux/normalize';
+import { normalize, normjoin } from 'torga-normalize';
 
 function reducer(state, action) {
 

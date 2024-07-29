@@ -1,8 +1,9 @@
 {
-  "name": "@sylvainleroux/normalize",
+  "name": "torga-normalize",
   "description": "Manages collection of objects",
   "main": "src/normalize.js",
-  "version": "1.0.0",
+  "private": false,
+  "version": "1.0.1",
   "scripts": {
     "build": "babel src -d dist",
     "test": "jest"
