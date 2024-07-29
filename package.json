@@ -3,7 +3,7 @@
   "description": "Manages collection of objects",
   "main": "src/normalize.js",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "build": "babel src -d dist",
     "test": "jest"
