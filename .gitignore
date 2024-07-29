@@ -86,3 +86,5 @@ desktop.ini
 
 # Parcel-bundler cache (https://parceljs.org/)
 .cache
+
+dist

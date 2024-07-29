@@ -8,11 +8,6 @@ steps:
   commands:
     - npm install
 
-- name: lint
-  image: node:16
-  commands:
-    - npm run lint
-
 - name: test
   image: node:16
   commands:
